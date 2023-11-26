@@ -1,0 +1,140 @@
+#category, #type, #difficulty {
+    margin-left: 25px;
+}
+ 
+#ia0 {
+    margin-left: 28px;
+    font-weight:500;
+}
+
+#incorrect_answers, #correct_answer {
+    margin-left: 30px;
+ 
+}
+
+#question {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#pic {
+    width: 300px;
+}
+
+#bar {
+    height: 1%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+@keyframes move {
+    0% {left: 0%}
+    25% {left: 10%}
+    50% {left: 20%}
+    75% {left: 10%}
+    95% {left: 0.1%}
+    }
+
+
+.move {
+    position: relative;
+    animation-name: move;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    color: orange;
+    font-weight: bolder;
+    font-size: 17px;
+  
+}
+
+@keyframes grow {
+    from {font-size: 25px;}
+    to {font-size: 26px; color: goldenrod;}
+}
+
+#grow {
+    animation-name: grow;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+        
+}
+
+.left {
+    text-align: left;
+}
+
+
+
+input:focus {
+    background-color: yellow;
+  }
+  
+
+.note-field {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 3px;
+    margin-right: 5px;
+    border: 3px solid;
+    border-color: orange;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ul {
+    font-weight: bold ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dot {
+    margin: 0 10px;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+    select {
+        width: 100%;
+    }
+}

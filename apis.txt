@@ -1,0 +1,154 @@
+I want to make a trivia web app.  There are 24 categories such as General Knowledge, Entertainment: Books, Entertainment: Books, etc. and there are three dificulty levels: easy, medium and hard. Below are the API endpoints for all the categories and difuculty levels. Help me to build the trivia game page.
+
+https://opentdb.com/api.php?amount=3&category=9 
+General Knowledge
+https://opentdb.com/api.php?amount=3&category=9&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=9&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=9&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=10 
+Entertainment: Books
+https://opentdb.com/api.php?amount=3&category=10&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=10&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=10&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=11 
+Entertainment: Film
+https://opentdb.com/api.php?amount=3&category=11&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=11&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=11&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=12 
+Entertainment: Music
+https://opentdb.com/api.php?amount=3&category=12&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=12&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=12&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=13 
+Entertainment: Musicals & Theatres
+https://opentdb.com/api.php?amount=3&category=13&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=13&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=13&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=14 
+Entertainment: Television
+https://opentdb.com/api.php?amount=3&category=14&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=14&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=14&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=15 
+Entertainment: Video Games
+https://opentdb.com/api.php?amount=3&category=15&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=15&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=15&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=16 
+Entertainment: Board Games
+https://opentdb.com/api.php?amount=3&category=16&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=16&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=16&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=17 
+Science & Nature
+https://opentdb.com/api.php?amount=3&category=17&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=17&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=17&difficulty=hard
+
+
+https://opentdb.com/api.php?amount=3&category=18 
+Science: Computers
+https://opentdb.com/api.php?amount=3&category=18&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=18&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=18&difficulty=hard
+
+
+https://opentdb.com/api.php?amount=3&category=19 
+Science: Mathematics
+https://opentdb.com/api.php?amount=3&category=19&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=19&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=19&difficulty=hard
+
+
+https://opentdb.com/api.php?amount=3&category=20 
+Mythology
+https://opentdb.com/api.php?amount=3&category=20&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=20&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=20&difficulty=hard
+
+
+https://opentdb.com/api.php?amount=3&category=21 
+Sports
+https://opentdb.com/api.php?amount=3&category=21&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=21&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=21&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=22 
+Geography
+https://opentdb.com/api.php?amount=3&category=22&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=22&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=22&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=23 
+History
+https://opentdb.com/api.php?amount=3&category=23&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=23&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=23&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=24 
+Politics
+https://opentdb.com/api.php?amount=3&category=24&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=24&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=24&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=25 
+Art
+https://opentdb.com/api.php?amount=3&category=25&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=25&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=25&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=26 
+Celebrities
+https://opentdb.com/api.php?amount=3&category=26&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=26&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=26&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=27 
+Animals
+https://opentdb.com/api.php?amount=3&category=27&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=27&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=27&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=28 
+Vehicles
+https://opentdb.com/api.php?amount=3&category=28&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=28&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=28&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=29 
+Entertainment: Comics
+https://opentdb.com/api.php?amount=3&category=29&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=29&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=29&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=30 
+Science: Gadgets
+https://opentdb.com/api.php?amount=3&category=30&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=30&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=30&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=31 
+Entertainment: Japanese Anime & Manga
+https://opentdb.com/api.php?amount=3&category=31&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=31&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=31&difficulty=hard
+
+https://opentdb.com/api.php?amount=3&category=32 
+Entertainment: Cartoon & Animations
+https://opentdb.com/api.php?amount=3&category=32&difficulty=easy
+https://opentdb.com/api.php?amount=3&category=32&difficulty=medium
+https://opentdb.com/api.php?amount=3&category=32&difficulty=hard
+
+
+extra
+https://opentdb.com/api_category.php
+

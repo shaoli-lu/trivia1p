@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="quote.css">
+    
+    <link rel="apple-touch-icon" sizes="205x154" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <img src ="ai.GIF"  alt="AI Dots" class="move" id="pic">
+    <!-- Add this to your HTML -->
+<div class="loader">
+    <div class="dot">
+    <select id="category-select">
+    <option value="">Any Category</option>
+    </select>
+    </div>
+
+    <div class="dot">
+    <select id="difficulty-select">
+    <option value="">Any Difficulty</option>
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+    </select>
+    </div>
+</div> 
+
+    <div class="flex-container" id = "grow">
+        <div id="question"></div>
+        
+        <!-- <img src="bar.GIF" alt="Separator" id="bar"> -->
+
+       
+        <div id="ia0"></div>
+        <div id="correct_answer" class="answer-button"></div>
+
+        
+        <div id="incorrect_answers" class="answer-button">
+           
+            <div id="ia1"></div>
+            <div id="ia2"></div>
+            <div id="ia3"></div>
+        </div>
+        </br>
+        <div id="difficulty"></div>
+        <div id="category"></div>
+        <div id="type"></div>
+    </div>  
+
+    <script src="quote.js"></script>
+</body>
+</html>
