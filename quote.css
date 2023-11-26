@@ -116,12 +116,12 @@ body {
 
 .loader {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 20px;
 }
 
 .dot {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 select {
@@ -131,6 +131,7 @@ select {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    color: green; 
 }
 
 @media (max-width: 600px) {
