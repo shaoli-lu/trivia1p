@@ -7,7 +7,7 @@ document.querySelector('#ia3').addEventListener('click', checkAnswer);
 
 let correctAnswer;
 
-// Add this to your JavaScript
+// Get Category and add event listener to category selection
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch categories and populate the category selection options
     fetch("https://opentdb.com/api_category.php")
